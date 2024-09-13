@@ -1,0 +1,202 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrdhekDeen | Home</title>
+    <link rel="stylesheet" href="{% static 'CSS/style.css' %}">
+
+    <link rel="shortcut icon" href="" type="static image/x-icon">
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <!--Start Nav Area-->
+    {% include 'navbar.html' %}
+    <!--End Nav Area-->
+
+    {% block banner %}
+    <!--Start Banner Area-->
+    <section class="container mt-5">
+        <div class="banner">
+            <img src="{% static 'image/logo.png' %}" alt="" class="img-responsive center-block d-block mx-auto">
+            <h1>বাংলাদেশী ইসলামিক <br><span>ম্যাট্রিমনি</span></h1>
+            <h5>নিজ উপজেলায় দ্বীনদার পাত্রপাত্রী খোঁজা এখন সহজ</h5>
+        </div>
+
+        <div class="hadis">
+            <div class="card hadis-card mt-5" >
+                <div class="card-body">
+                <p class="card-text">যে ব্যক্তি বিয়ে করলো সে তার অর্ধেক দ্বীন পূর্ণ করে ফেললো। বাকি অর্ধেকের জন্য সে আল্লাহকে ভয় করুক । - <span>(বায়হাকী, শু’আবুল ঈমান –৫৪৮৬)</span></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="find">
+            <div class="card find-card">
+                <div class="card-body">
+                    <div class="container text-center">
+                        <form action="">
+                            <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+                                <div class="col-12 col-lg-3">
+                                    <h5>আমি খুঁজছি</h5>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>সকল</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <h5>বৈবাহিক অবস্থা</h5>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>সকল</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-lg-3">
+                                    <h5>স্থায়ী ঠিকানা</h5>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>ঠিকানা নির্বাচন করুন</option>
+                                        <option value="1">One</option>
+                                        <option value="2">Two</option>
+                                        <option value="3">Three</option>
+                                    </select>
+                                </div>
+                                <button type="submit" class="btn find-btn"><i class="fa-solid fa-magnifying-glass"></i> খুঁজুন</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Banner Area-->
+
+    <!--Start Receive Area-->
+    <section class="container work">
+        <h1><span>অর্ধেকদ্বীন</span> সেবা গ্রহীতার পরিসংখ্যান</h1>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/couple.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">সর্বমোট পাত্র-পাত্রীর বায়োডাটা</p>
+                        <p class="card-text">খুব সহজেই বিনামূল্যে অর্ধেকদ্বীনে বায়োডাটা তৈরি করতে পারবেন।</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/male.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">সর্বমোট পাত্রের বায়োডাটা</p>
+                        <p class="card-text">বয়স, উপজেলা, পেশা, শিক্ষাগত যোগ্যতা সহ অনেক ফিল্টার ব্যবহার করে সহজেই বায়োডাটা খুঁজতে পারবেন।</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/female.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">সর্বমোট পাত্রীর বায়োডাটা</p>
+                        <p class="card-text">আপনার বায়োডাটা কেউ পছন্দ করলে অথবা আপনি কারো বায়োডাটা পছন্দ করলে সরাসরি অভিভাবকের সাথে যোগাযোগ করতে পারবেন।</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/married.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">সর্বমোট সফল বিবাহ</p>
+                        <p class="card-text">বায়োডাটা ও কথাবার্তা পছন্দ হলে নিজ দায়িত্বে ভালভাবে খোঁজ নিয়ে সুন্নতি বিবাহ সম্পন্ন করুন।</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--End Receive Area-->
+
+    <!--Start Work Area-->
+    <section class="container work">
+        <h1><span>অর্ধেকদ্বীন</span> যেভাবে কাজ করে</h1>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/hiw-create-biodata.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">বায়োডাটা তৈরি করুন</h5>
+                        <p class="card-text">খুব সহজেই বিনামূল্যে অর্ধেকদ্বীনে বায়োডাটা তৈরি করতে পারবেন।</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/hiw-search.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">বায়োডাটা খুঁজুন</h5>
+                        <p class="card-text">বয়স, উপজেলা, পেশা, শিক্ষাগত যোগ্যতা সহ অনেক ফিল্টার ব্যবহার করে সহজেই বায়োডাটা খুঁজতে পারবেন।</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/hiw-contact.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">যোগাযোগ করুন</h5>
+                        <p class="card-text">আপনার বায়োডাটা কেউ পছন্দ করলে অথবা আপনি কারো বায়োডাটা পছন্দ করলে সরাসরি অভিভাবকের সাথে যোগাযোগ করতে পারবেন।</p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="card work-card" style="width: 18rem;">
+                    <img src="{% static 'image/hiw-success.svg' %}" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">বিবাহ সম্পন্ন করুন</h5>
+                        <p class="card-text">বায়োডাটা ও কথাবার্তা পছন্দ হলে নিজ দায়িত্বে ভালভাবে খোঁজ নিয়ে সুন্নতি বিবাহ সম্পন্ন করুন।</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!--End Work Area-->
+    {% endblock %}
+
+    <!--Start About Area-->
+    <section class="about mt-5">
+        <div class="container">
+            <div class="item about-link">
+                <ul>
+                    <li><a href="http://">গোপনীয়তা নীতি</a></li>
+                    <li><a href="http://">শর্তাবলী</a></li>
+                    <li><a href="">প্রত্যর্পণ নীতি</a></li>
+                </ul>
+                <div class="shape">
+                    <a href="http://"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="http://"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="signiture d-flex justify-content-center mt-2">
+                <p>Designed By</p>
+                <img src="../static/image/signiture.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!--End About Area-->
+
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+</body>
+
+</html>

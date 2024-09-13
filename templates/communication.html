@@ -1,0 +1,36 @@
+{% extends 'index.html' %}
+{% block banner %}
+<section>
+    <div class="about_us text-center">
+        <h1>যোগাযোগ করুন</h1>
+    </div>
+    <div class="container ask mt-5">
+        <p>আপনার যে কোন জিজ্ঞাসা, নিম্নোক্ত ফর্মে পূরণ করে আমাদের কাছে পাঠিয়ে দিন। <br>আমরা শীঘ্রই আপনার সাথে যোগাযোগ করবো ইন শা আল্লাহ।</p>
+    </div>
+    <div class="container mt-5 mb-5 d-flex justify-content-center communication">
+        <div class="card communication_card" style="width: 30rem;">
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputName" class="form-label">নাম</label>
+                      <input type="text" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail" class="form-label">ইমেইল</label>
+                      <input type="email" class="form-control" id="exampleInputEmail">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputSubject" class="form-label">বিষয়</label>
+                        <input type="text" class="form-control" id="exampleInputSubject">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleTextarea">আপনার বার্তা</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </div>
+                    <a href="#" class="btn">পাঠান</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

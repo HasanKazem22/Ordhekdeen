@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Hind Siliguri' sans-serif;
+}
+
+nav ul li{
+    margin: 10px;
+}
+.navbar .navbar-nav .nav-link{
+    font-family: 'Hind Siliguri';
+    font-weight: 400;
+    font-size: 18px;
+    padding:1.5rem 9%;
+}
+.navbar-nav .nav-item a:hover{
+    color: #533379;
+}
+.offcanvas-body .log-btn{
+    width: 110px;
+    height: 40%;
+    margin-top: 10%;
+    font-family: 'Hind Siliguri';
+    font-weight: 500;
+    border: 2px solid #C26EED;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    color: #C26EED;
+    transition: 0.5s;
+}
+.offcanvas-body .log-btn:hover{
+    color: #533379;
+    border: 2px solid #533379;
+}
+/**End Nav Area**/
+
+/**Start Banner Area**/
+.banner h1{
+    font-family: 'Hind Siliguri';
+    font-size: 60px;
+    font-weight: 700;
+    color: #533379;
+    text-align: center;
+}
+.banner h1 span{
+    font-family: 'Hind Siliguri';
+    color: #E44E83;
+    text-align: center;
+}
+.banner h5{
+    font-family: 'Hind Siliguri';
+    font-weight: 600;
+    font-size: 22px;
+    color: #615569;
+    text-align: center;
+}
+/**End Banner Area**/
+
+/**Start Hadis Area**/
+.hadis{
+    padding: 0 20%;
+}
+.hadis .hadis-card{
+    padding: 3%;
+    border: 1px solid #533379;
+    border-radius: 20px;
+    background-color: transparent;
+}
+.hadis .hadis-card p{
+    font-family: 'Hind Siliguri';
+    font-size: 17px;
+    text-align: center;
+}
+.hadis .hadis-card p span{
+    font-family: 'Hind Siliguri';
+    color: #9D3F7D;
+    text-align: center;
+}
+/**End Hadis Area**/
+
+.find{
+    padding-top: 10%;
+}
+.find .find-card{
+    padding: 3% 2%;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.find .find-card h5{
+    font-family: 'Hind Siliguri';
+    color: #533379;
+}
+.find .form-select{
+    font-family: 'Hind Siliguri';
+    padding: 5%;
+    border-radius: 10px;
+    color: #BDBCBC;
+}
+.find .find-btn{
+    height: 30%;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: 'Hind Siliguri';
+    border: none;
+    border-radius: 10px;
+    background-size: 300% 300%;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background-image: linear-gradient(to right, #533379 0%, #E44E83 50%, #533379 100%);
+    transition: 0.5s;
+    color: #fff;
+}
+.find .find-btn:hover{
+    background-position: right center;
+}
+.form-select:focus {
+    border-color: #533379;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 193, 233, 0.5);
+}
+/**End Find Area**/
+
+.work{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.work span{
+    font-family: 'Hind Siliguri';
+    color: #E44E83;
+}
+.work h1{
+    font-family: 'Hind Siliguri';
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    color: #533379;
+}
+.work .work-card{
+    height: 300px;
+    padding: 5%;
+    margin-top: 20%;
+    border: none;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background: linear-gradient(155.6deg, #FEF5F9 7.47%, #FFFFFF 85.51%);
+}
+.work .work-card img{
+    height: 20%;
+    margin-top: 15%;
+}
+.work .work-card h5{
+    height: 20%;
+    font-family: 'Hind Siliguri';
+    font-weight: 600;
+}
+.work .work-card p{
+    height: 20%;
+    font-family: 'Hind Siliguri';
+    font-size: 15px;
+    color: #444444;
+}
+/**End Work Area**/
+
+.about{
+    background-color: #533379;
+}
+.about-link ul{
+    display: flex;
+    justify-content: center;
+}
+.about-link li{
+    list-style: none;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.about-link li a{
+    font-family: 'Hind Siliguri';
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.shape{
+    display: flex;
+    justify-content: center;
+}
+.shape a{
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+    transition: 0.5s;
+}
+.shape a:hover{
+    color: #9D3F7D;
+    transition: 0.5s;
+}
+.signiture p{
+    color: #fff;
+    font-family: 'Kalam';
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.signiture img{
+    height: 40px;
+}
+/**End About Area**/
+
+/**Start About Us Area**/
+.about_us{
+    height: 20vh;
+    background-image: linear-gradient(to right, #724090, #A4407F);
+}
+.about_us h1{
+    font-family: 'Hind Siliguri';
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    padding: 60px;
+}
+.about_p span p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+.about_p p{
+    font-family: 'Hind Siliguri';
+    font-size: 16px;
+    color: #615569;
+    line-height: 30px;
+}
+/**End About Us Area**/
+
+/**Start Question & instructions Area**/
+.question{
+    width: 750px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.question-button{
+    font-family: 'Hind Siliguri';
+    font-weight: 400;
+}
+.question-body{
+    font-family: 'Hind Siliguri';
+}
+/**End Question & instructions Area**/
+
+.ask p{
+    font-family: 'Hind Siliguri';
+    text-align: center;
+    color: #A7A7A7;
+}
+.communication .communication_card{
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.communication label{
+    font-family: 'Hind Siliguri';
+    color: #A7A7A7;
+}
+.communication input{
+    padding: 2%;
+}
+.communication textarea{
+    padding: 10%;
+}
+.communication .btn{
+    width: 100%;
+    font-family: 'Hind Siliguri';
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-size: 300% 300%;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background-image: linear-gradient(to right, #533379 0%, #E44E83 50%, #533379 100%);
+}
+
+/**Start Login Area**/
+.login .login_card{
+    border: none;
+    border-radius: 10px;
+    padding: 3%;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+}
+.login .login_card h4{
+    color: #533379;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login label{
+    color: #000;
+}
+.focusedInput {
+    outline: 0;
+    outline: thin dotted \9;
+    -moz-box-shadow: 0 0 8px rgba(82,168,236,.6);
+    box-shadow: 0 0 8px rgba(82,168,236,.6) !important;
+}
+.login input{
+    padding: 2%;
+}
+.login input::placeholder{
+    color: #A7A7A7;
+    font-size: 12px;
+}
+.login .login_card .btn{
+    width: 100%;
+    padding: 4%;
+    font-family: 'Hind Siliguri';
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background-size: 300% 300%;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background-image: linear-gradient(to right, #533379 0%, #E44E83 50%, #533379 100%);
+}
+.login .login_card .google{
+    color: #000;
+    background: #fff;
+}
+.login .login_card .google i{
+    color: #177FE6;
+}
+.login .login_card .create{
+    background: #71CA76;
+}
+.login .login_card .youtube{
+    background: #fff;
+    color: #533379;
+}
+.login .login_card .youtube i{
+    color: #E73E36;
+}
+/**End Login Area**/
+
+.biodata{
+    height: 100vh;
+}
+.biodata .bio-card{
+    border-radius: 10px;
+    border: 1px solid #522b79;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.biodata .bio-card:hover{
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.biodata h2{
+    font-family: 'Hind Siliguri';
+    font-weight: 600;
+    color: #A7A7A7;
+    margin-bottom: 50px;
+}
+.biodata td{
+    font-family: 'Hind Siliguri';
+}
+.biodata .bio-btn{
+    width: 50%;
+    padding: 15px;
+    border: none;
+    border-radius: 100px;
+    background-size: 300% 300%;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%);
+    background-image: linear-gradient(to right, #533379 0%, #E44E83 50%, #533379 100%);
+    color: #fff;
+}
+.biodata .bio-btn:hover{
+    color: #fff;
+}
